@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --config webpack.config.js",
+    "stop": "node server.stop.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "postcss": "^8.1.1",
+    "postcss-loader": "^4.0.3",
+    "style-loader": "^1.3.0",
+    "tailwindcss": "^1.8.10",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
